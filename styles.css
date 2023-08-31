@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+}
+#app {
+    width: 532px;
+    height: 800px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.discordapp.com/attachments/1145681408040386573/1146362823761465384/GAME_BOY_colour_532x800px.png");
+    /* image-resolution: 100%; */
+    
+}
+#display {
+    margin-top: -83px;
+    margin-bottom: 160px;
+    width:280px;
+    height: 241px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+}
+.emotions {
+    max-width: 278px;
+    max-height: 200px;
+}
+/* #buttonDiv {
+    width: 380px;
+
+} */
